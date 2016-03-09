@@ -1,28 +1,40 @@
-name: Boivin Benefits Group
 favicon: null
-layout_spectrum: 0.34322
-typography_spectrum: 0.66333
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Boivin Benefits Group
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.1412412270437926
+  brandStrength: 0.4444444
+  lightness: 0.006353451171889901
   brandColors:
     - '#00a79d'
     - '#6d6e71'
     - '#000000'
     - '#008080'
     - '#00ffff'
-  brandStrength: 0.5398222468793392
-  lightness: 0.006353451171889901
-  saturation: 0.1412412270437926
   rhythmicContrast: 0.7953541956376284
-purpose: []
+typography_spectrum: 0.66333
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.34322
+analytics:
+  twitter: null
+  google: null
+  facebook: null
